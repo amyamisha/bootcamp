@@ -1,65 +1,40 @@
-p{color: rgb(255, 242, 0);}
-h1{color: rgb(255, 127, 155);}
-body{background-color: rgb(255, 136, 0);
-background-image: url("https://th.bing.com/th/id/R.3d88a927f8529dcba03364b09d98adbe?rik=JYmQaMVSULpYQg&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%201%2fnature-images.jpg&ehk=BNPsuSOUR7ATZ3EpRwxx1xFl7LUbO3tYlu1wFLCBrCE%3d&risl=&pid=ImgRaw&r=0");
-background-repeat: no repeat;
-background-position: bottom;
-background-attachment: fixed;
-}
-
-
-
-.text{
-    color: rgb(157, 0, 255);
-    background-color: white;
-    border:3px solid rgb(85, 0, 255);
-    width: 660px;
-    height: 500px ;
+#box{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    font-size: 180px;
     text-align: center;
-    text-decoration-line: underline;
-    text-decoration-color: rgb(174, 255, 0);
-    text-transform: capitalize;
-}
-.heading{
-    text-shadow: 2px 2px rgb(1, 8, 1);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    font-family: 'Alkatra', cursive;
-    font-style: italic;
-    font-variant: small-caps;
-    
-}
-a:link{
-    text-decoration-line: none;
-}
-a:hover{
-    background-color: blueviolet;
-    color: white;
-    cursor: pointer;
+    margin: 180px 0px 0px 300px;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+
 
 }
-ol{
-    list-style-type: disc;
-}
-.overflow{
+#btn{
+    margin:28px 0px 0px 370px;
     border: 2px solid black;
-    width: 300px;
-    height: 150px;
-    overflow: scroll;
+    color: black;
+    background-color: brown;
+    height:50px;
+    border-radius: 5px;
 }
-table,th,td{
-    border:3px solid red;
-    border-collapse: collapse;
+#btn:hover{
+    background-color: blueviolet;
 }
-@media screen and (min-width: 200px){
-    body{
-        background-color: blueviolet
+#btn2{
+    margin:28px 0px 0px 350px;
+    border: 2px solid black;
+    height:50px;
+    width: 100px;
+
+
+    border-radius: 5px;}
+    #btn2:hover{
+        background-color: rgb(127, 255, 189);
+
     }
-};
-    
-}
-    
-}
-
-    
-
+    #s{
+        text-align: center;
+        font-size: 31px;
+    }
